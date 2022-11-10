@@ -8,7 +8,7 @@
 int main(int argc, char *argv[]) {
     
     if (argc < 2) {
-    	printf("Usage: ./test <net_device_name>");
+    	printf("Usage: ./test_nd <net_device_name>");
     	return -1;
     }
     struct rtnl_link_stats64 *stats = malloc(sizeof(struct rtnl_link_stats64));
